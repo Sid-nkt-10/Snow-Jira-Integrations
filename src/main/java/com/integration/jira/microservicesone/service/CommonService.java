@@ -36,7 +36,7 @@ public class CommonService {
 			HttpHeaders headers = new HttpHeaders();
 			headers.set("Content-type", "application/json");
 			headers.set("Accept", "application/json");
-			headers.set("Authorization", "Basic bmF2ZWVuLnRwOTk3QGdtYWlsLmNvbTpLSTJsRmZzV0tnZVBGM3RWNnpFZUJDQkE=");
+			headers.set("Authorization", "Basic ");
 			
 			
 			
@@ -71,7 +71,7 @@ public class CommonService {
 			HttpHeaders headers = new HttpHeaders();
 			headers.set("Content-type", "application/json");
 			//headers.set("Accept", "application/json");
-			headers.set("Authorization", "Basic bmt0MDU6cGFzc3dvcmRAMTIz");
+			headers.set("Authorization", "Basic ");
 			
 			HttpEntity<String> entity = new HttpEntity<String>(requestBody,headers);
 			
